@@ -124,7 +124,7 @@ const Catalog = () => {
           </div>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {catalogPageData?.data?.selectedCategory?.courses?.map((course, i) => (
+            {catalogPageData?.data?.selectedCategory?.course?.map((course, i) => (
               <Course_Card 
                 course={course} 
                 key={i} 
@@ -144,7 +144,7 @@ const Catalog = () => {
               Top courses in {catalogPageData?.data?.differentCategory?.name}
             </h2>
             <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {catalogPageData?.data?.differentCategory?.courses?.map((course, i) => (
+              {catalogPageData?.data?.differentCategory?.course?.map((course, i) => (
                 <Course_Card 
                   course={course} 
                   key={i} 
