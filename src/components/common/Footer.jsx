@@ -118,7 +118,7 @@ const Footer = () => {
             ))}
           </div>
           <div className="text-green-200 text-center">
-            Made with ❤️ by Aaditya © 2023 Study Point
+            Made with ❤️ by ATISH © 2025 Study Point
           </div>
         </div>
       </div>
